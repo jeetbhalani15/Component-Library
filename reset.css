@@ -1,0 +1,72 @@
+
+   
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #3b82f6;
+  --primary-hover: #60a5fa;
+  --secondary-color: #eee;
+  --secondary-hover: #cac2c2;
+  --alert-primary:#7FD2E6; 
+  --danger-color: #fcc5c5;
+  --danger-hover: #d31609;
+  --success-color: #84f1c9;
+  --success-hover: #0d8611;
+  --warning-color: #ffe7c5;
+  --info-color : #181868;
+  --default-hover : #D1D5DB;
+  --btn-color:#89f8da;
+  --outline-bg: #ffffff;
+  /* 
+  avatar colors
+  */
+  --avtar-shadow:black;
+  --avtar-status-online:green;
+  --avtar-status-offline:rgb(196, 42, 42);
+  --avtar-status-busy:rgb(185, 139, 13);
+  --avtar-status-oncall:rgb(39, 196, 207);
+  /* 
+  badges colors
+  */
+  --badge-bg-color:#ff264f;
+  --badge-text-color:white;
+  --badge-text-color2:black;
+  /* 
+  CARDS COLORS
+  */
+  --card-bg-color:#f14b6a;
+  --card-hover:rgb(255, 136, 146);
+  --card-text:white;
+  --card-badge:#fc0000;
+  --card-tag:red;
+  --card-btn:#89f8da;
+  --card-hr-bg:#292727;
+  --card-vr-overlay: #ffd7d7;
+  --card-vr-float-icon:#fcfbf8;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  cursor: pointer;
+}
