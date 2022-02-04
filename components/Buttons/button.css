@@ -1,0 +1,106 @@
+.btn{
+    
+    padding: 0.5rem 1rem;
+    margin: 1.25rem 0;
+    background-color: transparent; 
+    border: 2px solid grey;
+    font-size: 1rem;
+    text-align: center;
+    width: 12rem;
+    cursor: pointer;
+}
+.btn-solid{
+    background-color: var(--btn-color);
+}
+.btn-outline{
+    border: 2px solid #0dafa0;
+    color: var(--btn-color);
+}
+.btn-bottom{
+    border: none;
+    text-decoration: underline;
+}
+/* 
+DISBALE BTN
+*/
+.btn-disable{
+    pointer-events: none;
+    opacity: 0.5;
+}
+/* 
+CSS FOR BTN SIZE
+*/
+.lg-btn{
+    font-size: 1.1rem;
+    padding: 0.7rem 1.5rem;
+    min-width: 80px;
+}
+.sm-btn{
+    font-size: 0.9rem;
+    padding: 0.3rem 0.7rem;
+    width: 112px;
+}
+/* 
+CSS FOR TOGGLE BTN
+*/
+.btn-toggle{
+    width: 26px;
+    height: 44px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+}
+
+.checkbox{
+    height: 0;
+    width: 0;
+    margin: 0;
+    opacity: 0;
+}
+.btn-toggle .btn-slider{
+    position: absolute;
+    top:0;
+    left:9px;
+    height: 26px;
+    width: 26px;
+    background-color: var(--btn-color);
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.btn-toggle .btn-slider::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 9px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: rgb(226, 226, 226);
+    transition: 0.4s;
+}
+.btn-toggle .checkbox:checked + .btn-slider::before{
+    transform: translateX(-18px);
+}
+.btn-toggle .checkbox:checked + .btn-slider{
+    background-color: #66263f;
+}
+/* 
+CSS FOR FLOATING BTN
+*/
+.btn-float{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 3.5rem;
+    height: 2.9rem;
+    font-size: 1rem;
+    border-radius: 50%;
+    color:#159673;
+    background-color:var(--btn-color);
+    z-index: 1;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
