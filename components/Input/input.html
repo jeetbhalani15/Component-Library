@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input & Image</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="input-box">
+            <label class="input-label input-label-required">Email address</label>
+            <input type="email" class="input-area" placeholder="abc@example.com..">
+            <label class="input-label" for="">Textarea</label>
+            <textarea class="input-area" name="" id=""  rows="3" placeholder="write Email here..."></textarea>
+        </div>
+        <!-- 
+            read-only input
+         -->
+        <div class="input-box">
+            <label class="input-label">Email address</label>
+            <input type="email" class="input-area input-read-only" placeholder="abc@example.com.." required readonly/>
+            <label class="input-label" for="">Enter the password</label>
+            <input type="password" class="input-area">
+        </div>
+        <!-- 
+            radio input element
+         -->
+         <div class="radio-box">
+         <div class="radio">
+            <label for="radio-1">
+                <input id="radio-1" name="radio" type="radio" checked>
+                Radio
+            </label>
+        </div>
+
+        <div class="radio">
+            <label for="radio-2">
+                <input id="radio-2" name="radio" type="radio">
+                Radio   
+            </label>
+        </div>
+
+        <div class="radio disabled">
+            <label for="radio-3">
+                <input id="radio-3" name="radio" type="radio" disabled>
+                Disabled
+            </label>
+        </div>
+    </div>
+
+   <div class="check-box">
+         <div class="checkbox">
+            <label for="checkbox-1">
+                <input id="radio-1" name="checkbox" type="checkbox" checked>
+                Checked
+            </label>
+        </div>
+
+        <div class="checkbox">
+            <label for="checkbox-2">
+                <input id="radio-2" name="checkbox" type="checkbox">
+                Unchecked   
+            </label>
+        </div>
+
+        <div class="checkbox disabled">
+            <label for="checkbox-3">
+                <input id="checkbox-3" name="checkbox" type="checkbox" disabled>
+                Disabled
+            </label>
+        </div>
+    </div>
+ <!-- 
+     responsive img
+  -->
+  
+  
+</div>
+        <img  class="responsive-img" src="https://cdn2.unrealengine.com/egs-sifu-deluxe-edition-desktop-1248x702-6799e7e43607.png?h=1080&resize=1&w=1920" alt="loading">
+        
+        <img  class="round-img" src="https://cdn2.unrealengine.com/egs-sifu-deluxe-edition-desktop-1248x702-6799e7e43607.png?h=1080&resize=1&w=1920" alt="loading">
+        <script src="/index.js"></script>
+    
+</body>
+</html>
