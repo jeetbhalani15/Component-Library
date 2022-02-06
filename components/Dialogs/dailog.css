@@ -1,33 +1,29 @@
-body {
-    font-family: sans-serif;
-    margin-top: 28px;
-    box-sizing: border-box;
-  }
-  .box {
+ 
+ .flex{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
-  }
-  .dialog__box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 150px;
+}
+  .box__border{
     border-radius: 5px;
     box-shadow: 0px 0px 5px;
     background-color: rgb(255, 255, 255);
   }
+  .box {
+    gap: 50px;
+  }
+  .dialog__box {
+    width: 16rem;
+    height: 9rem;
+  }
   .dialog__header {
-    margin-right: 80px;
+    margin-right: 6rem;
     margin-bottom: 18px;
   }
   .dialog__btn {
-    padding: 16px;
-    margin-left: 50px;
+    padding: 1rem;
+    margin-left: 3rem;
     display: flex;
     /* background-color: */
   
@@ -51,39 +47,29 @@ body {
     STACKED DAILOG
   */
   .dialog__box0 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 250px;
-    height: 170px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px;
-    background-color: rgb(255, 255, 255);
+    width: 16rem;
+    height: 11rem;
   }
   .dialog__header0 {
-    margin-right: 80px;
+    margin-right: 6rem;
     margin-bottom: 18px;
   }
   .dialog__btn0 {
     display: flex;
     flex-direction: column;
-    padding-left: 35px;
+    padding-left: 4rem;
   }
   
   /*  
   CSS FOR SIMPLE DIALOG BOX 
   */
   .dialog__box1 {
-    width: 234px;
-    height: 245px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px;
-    background-color: rgb(255, 255, 255);
+    width: 16rem;
+    height: 15.4rem;
   }
   .head {
     font-size: 22px;
-    margin: 18px;
+    margin: 1rem;
     /* margin-top: 60px; */
     padding-top: 8px;
   }
@@ -117,23 +103,20 @@ body {
   */
   
   .dialog__box2 {
-    width: 260px;
-    height: 330px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px;
-    background-color: rgb(255, 255, 255);
+    width: 16rem;
+    height: 21rem;
   }
   .dialog__content2 {
     padding: 12px;
     overflow-y: scroll;
-    height: 160px;
+    height: 10.5rem;
   }
   .items {
     padding: 12px 1px;
     font-size: 20px;
   }
   .dialog__btn2 {
-    margin-left: 50px;
+    margin-left: 4rem;
     display: flex;
   }
   .btn-py {
@@ -146,23 +129,20 @@ body {
   CSS STACKED DAILOG
   */
   .dialog__box3 {
-    width: 260px;
-    height: 366px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px;
-    background-color: rgb(255, 255, 255);
+    width: 16rem;
+    height: 23rem;
   }
   .dialog__content3 {
     padding: 12px;
     overflow-y: scroll;
-    height: 160px;
+    height: 10.5rem;
   }
   .items {
     padding: 12px 1px;
     font-size: 20px;
   }
   .dialog__btn3 {
-    margin-left: 50px;
+    margin-left: 4rem;
     display: flex;
     flex-direction: column;
   }
