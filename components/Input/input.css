@@ -1,19 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* background-color: black; */
-}
-.box{
+.flex{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.box{
+    flex-direction: column;
     background-color: black;
     gap: 60px;
     height: 100vh;
     
 }
+
 .input-label{
     display: inline-block;
     padding-bottom: 0.625rem;
@@ -47,9 +44,6 @@ RADIO INPUT ELEMENT
     color: white;
 }
 .check-box{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     color: white;
 }
 .radio label,.checkbox label{
