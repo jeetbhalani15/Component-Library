@@ -1,0 +1,182 @@
+body {
+    font-family: sans-serif;
+    margin-top: 28px;
+    box-sizing: border-box;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .dialog__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .dialog__header {
+    margin-right: 80px;
+    margin-bottom: 18px;
+  }
+  .dialog__btn {
+    padding: 16px;
+    margin-left: 50px;
+    display: flex;
+    /* background-color: */
+  
+    /* gap: 8px; */
+  }
+  button {
+    border: none;
+    padding: 6px;
+  
+    background-color: rgb(255, 255, 255);
+    color: #7721f0;
+    font-size: large;
+    font-family: monospace;
+    font-weight: 600;
+  }
+  button:hover {
+    background-color: rgb(248, 248, 248);
+  }
+  
+  /* 
+    STACKED DAILOG
+  */
+  .dialog__box0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 170px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .dialog__header0 {
+    margin-right: 80px;
+    margin-bottom: 18px;
+  }
+  .dialog__btn0 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+  }
+  
+  /*  
+  CSS FOR SIMPLE DIALOG BOX 
+  */
+  .dialog__box1 {
+    width: 234px;
+    height: 245px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .head {
+    font-size: 22px;
+    margin: 18px;
+    /* margin-top: 60px; */
+    padding-top: 8px;
+  }
+  li {
+    list-style: none;
+    display: flex;
+    padding: 2px;
+    font-size: 22px;
+    padding-left: 12px;
+    align-items: center;
+  }
+  li:hover {
+    background-color: #e8dff5;
+  }
+  
+  i {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* font-size: px; */
+    margin-right: 8px;
+  }
+  .fa-user-circle-o {
+    font-size: 34px;
+    color: grey;
+    padding-right: 8px;
+  }
+  /* 
+  CSS FOR SCROLLABLE DAILOG BOC
+  */
+  
+  .dialog__box2 {
+    width: 260px;
+    height: 330px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .dialog__content2 {
+    padding: 12px;
+    overflow-y: scroll;
+    height: 160px;
+  }
+  .items {
+    padding: 12px 1px;
+    font-size: 20px;
+  }
+  .dialog__btn2 {
+    margin-left: 50px;
+    display: flex;
+  }
+  .btn-py {
+    padding: 12px;
+  }
+  input {
+    margin: 12px;
+  }
+  /* 
+  CSS STACKED DAILOG
+  */
+  .dialog__box3 {
+    width: 260px;
+    height: 366px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .dialog__content3 {
+    padding: 12px;
+    overflow-y: scroll;
+    height: 160px;
+  }
+  .items {
+    padding: 12px 1px;
+    font-size: 20px;
+  }
+  .dialog__btn3 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-py {
+    padding: 12px;
+  }
+  input {
+    margin: 12px;
+  }
+  /* 
+  css for btns
+  */
+  .py-3 {
+    padding: 15px 42px;
+    border: 2px solid rgb(117, 117, 117);
+  }
+  

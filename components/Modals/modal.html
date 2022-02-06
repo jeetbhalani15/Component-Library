@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dialog box</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="modal.css">
+  </head>
+
+  <body>
+    <div class="box">
+<!--      
+        HTML FOR MODAL/DAILOG POPUP
+        -->
+      <div class="dailog__btns">
+        <div class="dailog__btnbox">
+          <button data-modal-target="#modal" class="py-3">SIMPLE</button>
+          <button data-modal-target="#modal1" class="py-3">DAILOG BOX</button>
+          <button data-modal-target="#modal2" class="py-3">STACKED</button>
+        </div>
+        <!-- 
+          HTML OF SIMPLE BOX
+         -->
+        <div class="modal__box" id="modal">
+          <div class="modal__header">
+            <h3>Dialog header</h3>
+            <span class="txt">
+              Dailog body text
+            </span>
+          </div>
+          <div class="modal__btn">
+            <button>ACTION 1</button>
+            <button>ACTION 2</button>
+          </div>
+        </div>
+        <!-- 
+          HTML OF DAILOG BOX
+         -->
+        <div class="modal__box1" id="modal1">
+          <div class="modal__header1">
+            <h3 class="head">Dialog header</h3>
+          </div>
+          <div class="modal__content1">
+            <li><i class="fa fa-user-circle-o"></i> <span> item 1</span></li>
+            <li><i class="fa fa-user-circle-o"></i> <span> item 2</span></li>
+            <li><i class="fa fa-user-circle-o"></i> <span> item 3</span></li>
+          </div>
+        </div>
+        <!-- HTML FOR STACKED -->
+        <div class="modal__box3" id="modal2">
+          <div class="modal__header3">
+            <h3 class="head">Dialog header</h3>
+          </div>
+          <hr />
+          <div class="modal__content3">
+            <div class="modal__items">
+              <input type="radio" class="input" name="1" />
+              <label for="">item 1</label>
+            </div>
+            <div class="items">
+              <input type="radio" name="1" />
+              <label for="">item 2</label>
+            </div>
+            <div class="items" name="1">
+              <input type="radio" />
+              <label for="">item 3</label>
+            </div>
+            <div class="items" name="1">
+              <input type="radio" />
+              <label for="">item 4</label>
+            </div>
+            <div class="items">
+              <input type="radio" name="1" />
+              <label for="">item 5</label>
+            </div>
+            <div class="items" name="1">
+              <input type="radio" />
+              <label for="">item 6</label>
+            </div>
+            <div class="items" name="1">
+              <input type="radio" />
+              <label for="">item 7</label>
+            </div>
+            <div class="items">
+              <input type="radio" name="1" />
+              <label for="">item 8</label>
+            </div>
+          </div>
+          <hr />
+          <div class="modal__btn3">
+            <button class="btn-py">FULL WIDTH ACTION 1</button>
+            <button>FULL WIDTH ACTION 2</button>
+          </div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+    </div>
+    <script src="modal.js"></script>
+  </body>
+</html>

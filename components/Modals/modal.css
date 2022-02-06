@@ -1,0 +1,156 @@
+.dailog__btns {
+    position: relative;
+    background-color: antiquewhite;
+    width: 75%;
+    height: 485px;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+  }
+  .modal__box {
+    position: absolute;
+    top: 40%;
+    left: 41%;
+    transform: translate(-10%, -10%) scale(0);
+    transition: 300ms ease-in-out;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .modal__box.active {
+    transform: translate(-10%, -10%) scale(1);
+  }
+  .modal__header {
+    margin-right: 80px;
+    margin-bottom: 18px;
+  }
+  .modal__btn {
+    padding: 16px;
+    margin-left: 50px;
+    display: flex;
+    /* background-color: */
+  
+    /* gap: 8px; */
+  }
+  .overlay {
+    position: absolute;
+    opacity: 0;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: 300ms ease-in-out;
+    pointer-events: none;
+  }
+  .overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  /* 
+  CSS FOR DAILOG BOX
+  */
+  
+  .modal__box1 {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(0%, 0%) scale(0);
+    transition: 300ms ease-in-out;
+    z-index: 10;
+  
+    width: 234px;
+    height: 245px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .modal__box1.active {
+    transform: translate(0%, 0%) scale(1);
+  }
+  .head {
+    font-size: 22px;
+    margin: 18px;
+    /* margin-top: 60px; */
+    padding-top: 8px;
+  }
+  li {
+    list-style: none;
+    display: flex;
+    padding: 2px;
+    font-size: 22px;
+    padding-left: 12px;
+    align-items: center;
+  }
+  li:hover {
+    background-color: #e8dff5;
+  }
+  
+  i {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* font-size: px; */
+    margin-right: 8px;
+  }
+  .fa-user-circle-o {
+    font-size: 34px;
+    color: grey;
+    padding-right: 8px;
+  }
+  /* 
+  CSS FOR STACKED BOX
+  */
+  
+  .modal__box3 {
+    position: absolute;
+    top: 25%;
+    z-index: 10;
+    transform: translate(0%, 0%) scale(0);
+    transition: 300ms ease-in-out;
+    width: 260px;
+    height: 366px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    background-color: rgb(255, 255, 255);
+  }
+  .modal__box3.active {
+    transform: translate(0%, 0%) scale(1);
+  }
+  .modal__content3 {
+    padding: 12px;
+    overflow-y: scroll;
+    height: 160px;
+  }
+  .modal__items {
+    padding: 12px 1px;
+    font-size: 20px;
+  }
+  .modal__btn3 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-py {
+    padding: 12px;
+  }
+  input {
+    margin: 12px;
+  }
+  /* 
+  css for btns
+  */
+  .py-3 {
+    padding: 15px 42px;
+    border: 2px solid rgb(117, 117, 117);
+  }
+  
