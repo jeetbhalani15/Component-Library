@@ -1,0 +1,79 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    flex-direction: column;
+    background-color: black;
+    gap: 60px;
+    height: 100vh;
+    
+}
+
+.input-label{
+    display: inline-block;
+    padding-bottom: 0.625rem;
+    box-sizing: border-box;
+    color: blanchedalmond;
+}
+.input-label-required:after{
+    content: "*";
+    color: #CF000F;
+}
+.input-area{
+    width: 520px;
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #d4d5d9;
+    color: rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    line-height: 1.5;
+    outline: none;
+    box-sizing: border-box;
+}
+.input-read-only:read-only{
+    border: none;
+    background-color: transparent;
+}
+/* 
+RADIO INPUT ELEMENT
+*/
+.radio-box{
+    display: flex;
+    color: white;
+}
+.check-box{
+    color: white;
+}
+.radio label,.checkbox label{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.radio input,.checkbox input{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.radio.disabled label,.checkbox.disabled label{
+    color:#888;
+}
+
+.radio.disabled input,.checkbox.disabled input{
+    cursor: not-allowed;
+}
+/* 
+RESPONSIVE IMGAE
+*/
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+.round-img{
+    border-radius: 50%;
+    width: 285px;
+    height: 200px;
+}
