@@ -1,0 +1,120 @@
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+}
+
+.snackbar1{
+    display: flex;
+    padding: 5px 10px;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: 600;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: #333333
+}
+.btn{
+    background-color: #333333;
+    color: wheat;
+    border: none;
+    font-weight: 500;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+.btn:hover{
+    background-color: #414141
+}
+.retry{
+    margin: 15px;
+    color: #B47EFB;
+}
+.action1{
+    margin-left: auto;
+}
+/* 
+CSS FOR TOGGLE SNCAKBARS
+*/
+.snackbar2{
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    padding: 5px 10px;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: 600;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: #333333
+}
+.action2{
+    margin-left: auto;
+}
+/* CSS FOR LEADING */
+.snackbar3{
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    left: 750px;
+    padding: 5px 10px;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: 600;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: #333333
+}
+.action3{
+    margin-left: auto;
+}
+/* FOR STACKED */
+.snackbar4{
+    display: flex;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    padding: 5px 10px;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: 600;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: #333333
+}
+.action4{
+    margin-left: auto;
+}
+.snackbar__box{
+    display: flex;
+    position: relative;
+    border: wheat;
+    justify-content: center;
+    width: 95vw;
+    height: 300px;
+    background-color: violet;
+
+}
+.snackbar__action{
+    display: flex;
+}
+.btn2{
+    
+    padding: 16px 62px;
+    margin: 34px;
+    font-size: 20px;
+}
