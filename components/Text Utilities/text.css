@@ -1,0 +1,77 @@
+.font-size-6{
+    font-size:3rem;
+}
+.font-size-5{
+    font-size:2.75rem;
+}
+.font-size-4{
+    font-size:2.5rem;
+}
+.font-size-3{
+    font-size:2rem;
+}
+.font-size-2{
+    font-size: 1.75rem;
+}
+.font-size-1{
+    font-size: 1.25rem;
+}
+
+.fw-900{
+font-weight: 900;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-100{
+    font-weight: 100;
+}
+.div1{
+    background-color: coral;
+}
+.div2{
+    background-color: rgb(80, 185, 255);
+}
+.flex{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*  
+ Different text styles
+*/
+.text-strike-through{
+    text-decoration: line-through;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-bold-weight{
+    font-weight: 700;
+}
+.text-light-weight{
+    font-weight: 300;
+}
+.text-regular-weight{
+    font-weight: 500;
+}
+.text-small-size{
+    font-size: 0.875rem;
+}
+.text-mark{
+    background-color: gray;
+}
+.primary-text-color{
+    color: rgb(241, 162, 15);
+}
+.secondary-text-color{
+    color: blueviolet;
+}
