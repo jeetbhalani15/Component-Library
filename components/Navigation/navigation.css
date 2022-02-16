@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.header{
+    margin-top: 20px;
+    display: flex;
+    width: 735px;
+    height: 61px;
+    background-color: #6200EE;
+    align-items: center;
+   
+}
+button{
+    width: 24px;
+    height: 24px;
+    background-color: #6200EE;
+    color: white;
+    font-size: 24px;
+    margin: 12px;
+    border: none;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.actionbtn{
+    margin-left: auto;
+}
+span{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px;
+}
+.headertxt{
+    padding: 13px;
+}
+
+/* 
+dense CSS
+*/
+.header1{
+    margin-top: 20px;
+    display: flex;
+    width: 735px;
+    height: 45px;
+    background-color: #6200EE;
+    align-items: center;
+   
+}
+button{
+    width: 24px;
+    height: 24px;
+    background-color: #6200EE;
+    color: white;
+    font-size: 24px;
+    margin: 12px;
+    border: none;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.actionbtn1{
+    margin-left: auto;
+}
+span{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px;
+}
+.headertxt1{
+    padding: 13px;
+}
+
+
+
+
+
