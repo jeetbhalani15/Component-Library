@@ -11,16 +11,20 @@
 }
 
 :root {
-  --primary-color: #3b82f6;
-  --primary-hover: #60a5fa;
+  --bg-color-light:#ECE8E4;
+  --bg-color-dark:#1e1f1f;
+  --primary-color: #FF8358;
+  --primary-hover: #ffc7b4;
   --secondary-color: #eee;
   --secondary-hover: #cac2c2;
+  --alert-color:rgb(55, 91, 248);
   --alert-primary:#7FD2E6; 
   --danger-color: #fcc5c5;
   --danger-hover: #d31609;
   --success-color: #84f1c9;
   --success-hover: #0d8611;
   --warning-color: #ffe7c5;
+  --warning-hover:rgb(243, 161, 38);
   --info-color : #181868;
   --default-hover : #D1D5DB;
   --btn-color:#89f8da;
