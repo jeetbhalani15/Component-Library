@@ -1,5 +1,6 @@
 @import "/reset.css";
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,8 +8,8 @@
 img{
     width: 100%;
 }
-
 .dark{
+
     --backgroungColor:#1e1f1f;
     --darkOne:#312f3a;
     --darkTwo:#45424b;
@@ -18,6 +19,7 @@ img{
 }
 
 .light{
+
     --mainColor:#64bcf4;
     --hoverColor:#5bacdf;
     --backgroungColor:#ECE8E4;
@@ -31,7 +33,7 @@ h1{
     margin: 2rem 0;
     font-size: 40px;
     font-weight: 600;
-    color: var(--text-color);
+    color: var(--text-color)
 }
 
 a{
@@ -63,7 +65,7 @@ li{
     z-index: 10;
 }
 header .container{
-    background-color: var(--primary-color);
+    background-color: #ff8358;
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -80,7 +82,7 @@ header .container{
      margin-right: -1rem;
  }
  .bg-color{
-     color: white;
+     color: var(--text-color);
      font-size: 1.3rem;
      font-family: monospace;
      font-weight: 600;
@@ -100,10 +102,10 @@ header .container{
 }
 .links a{
     color: var(--text-color);
-    font-weight: 600;
     margin-left: 4.5rem;
     display: inline-block;
     transform: 0.3s;
+    font-weight: 600;
 }
 .links a:hover{
     color: var(--primary-hover);
@@ -161,7 +163,7 @@ header .container{
      position: relative;
      z-index: 70;
  }
-.toggle-btn{
+ .toggle-btn{
     display: inline-block;
     border: none;
     margin-left: 4.5rem;
@@ -207,6 +209,7 @@ sibebar
     flex-direction: column;
     align-items: center;
     gap: 50px;
+
 }
 .items{
     height: 40px;
@@ -218,7 +221,8 @@ sibebar
     font-weight: 700;
 }
 .items:hover{
-    background-color: var(--primary-hover);   
+    background-color: var(--primary-hover);
+    
 }
 .drawer{
     display: flex;
@@ -226,19 +230,18 @@ sibebar
 }
 
 .drawer__box{
-    background-color: var(--backgroungColor);
+    background-color: #fbf0e4;
     border-radius: 18px;
     width: 320px;
     height: 100vh;
 }
 a{
     text-decoration: none;
-    color: var(--text-color);
 }
 span{
     font-size: 22px;
     padding: 18px;
-    color: var(--text-color);
+    color: var(--text-color)
 }
 i{
     margin: 5px;
@@ -248,9 +251,6 @@ i{
     padding: 20px;
     color: #cb7455;
 }
- /* span:hover{
-    color: #6200EE;
-} */
 #header {
     position: relative;
     display: flex;
@@ -294,7 +294,7 @@ i:hover{
   
 }
 .drawer__box1{
-    height: 65rem;
+    height: 69rem;
     background-color: var(--backgroungColor);
     border-right: 3px solid #d8d8d8;
 }
@@ -310,6 +310,12 @@ i:hover{
     flex-direction: column;
     gap: 1rem;
     margin: 2rem;
+    
+
+}
+.header{
+    background-color: #7d64ed;
+    padding: 20px;
 }
 /* 
  main content
@@ -323,7 +329,7 @@ i:hover{
 }
 .content{
     padding: 2px 4rem;
-    height: 100%
+    height: 100%;
 }
 p{
     font-size: 20px;
@@ -331,12 +337,21 @@ p{
     color: var(--text-color);
 }
 .drawer__items1{
-  height: 100vh;
+  height: 100%;
 
 }
 small{
     padding: 10px;
     font-size: 22px;
+}
+.footer{
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 4rem;
+    
 }
 .next-pre-btns {
     display: flex;
@@ -351,93 +366,105 @@ small{
   .next-pre-btns i {
     font-size: 1.5rem;
   }
-
-  
-.alert-container{
+  .box-input{
     display: flex;
+    justify-content: center;
+    margin-top: 25px;
     flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    height: 12rem;
+    background-color: #f1f1f1;
+  }
+  .flex{
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30%;
 }
 
-.alert-box{
-    border-radius: 0.3rem;
-    padding: 1rem 3rem 1rem 1rem;
-    font-size: 1rem;
+.input-label{
+    display: inline-block;
+    padding-bottom: 0.625rem;
     box-sizing: border-box;
-    width: 100%;
-    margin: 1rem 0;
-    position: relative;
+    color: black;
 }
-.alert-with-bckg{
-    width: 70rem;
+.input-label-required:after{
+    content: "*";
+    color: #CF000F;
 }
-.alert-primary{
-    cursor: pointer;
-    background-color: var(--alert-primary);
-    color: var(--alert-color);
-}
-.alert-success{
-    cursor: pointer;
 
-    background-color: var(--success-color);
-    color: var(--success-hover);
+.error-msg{
+    font-size: 18px;
+    color: red;
 }
-.alert-danger{
-    cursor: pointer;
-
-    color:  var(--danger-hover);
-    background-color: var(--danger-color);
+.input-area{
+    width: 520px;
+    display: block;
+    padding: 0.5rem;
+    border: 1px solid #d4d5d9;
+    color: rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    line-height: 1.5;
+    outline: none;
+    box-sizing: border-box;
 }
-.alert-warning{
-    cursor: pointer;
-
-    color: var(--warning-hover);
-    background-color: var(--warning-color);
+.error-bg{
+    border: 1px solid rgba(209, 44, 3, 0.836);
+}
+.success-bg{
+    border: 1px solid rgba(25, 177, 5, 0.836);
+}
+.success-msg{
+    font-size: 18px;
+    color: rgb(3, 121, 3);
+}
+.input-read-only:read-only{
+    border: none;
+    background-color: transparent;
 }
 /* 
-CSS FOR OULINE ALERT
-*/  
-.alert-primary-outline{
-    background-color: var(--outline-bg);
-    color: var(--alert-color);
-    border: 2px solid blue;
-}
-.alert-danger-outline{
-    color: var(--danger-hover);
-    background-color: var(--outline-bg);
-    border: 2px solid red;
-}
-.alert-success-outline{
-    background-color: var(--outline-bg);
-    color: var(--success-hover);
-    border: 2px solid green;
-}
-.alert-warning-outline{
-    background-color: var(--outline-bg);
-    color: var(--warning-hover);
-    border: 2px solid orange;
-}
-.alert-btn{
+RADIO INPUT ELEMENT
+*/
+.radio-box{
     display: flex;
-    position: relative;
-    align-items: center;
+    color: rgb(0, 0, 0);
 }
-.close-btn{
-    font-weight: 600;
-    background: none;
-    border: none;
-    position: absolute;
-    right: 1%;
-    bottom: 36%;
+.check-box{
+    color: white;
+}
+.radio label,.checkbox label{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 22px;
+}
+
+.radio input,.checkbox input{
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.radio.disabled label,.checkbox.disabled label{
+    color:#888;
+}
+
+.radio.disabled input,.checkbox.disabled input{
+    cursor: not-allowed;
+}
+/* 
+RESPONSIVE IMGAE
+*/
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+.round-img{
+    border-radius: 50%;
+    width: 285px;
+    height: 200px;
 }
 .footer{
-    background-color: var(--primary-color);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center; 
     gap: 50px;
-    height: 4rem;
-    
 }
