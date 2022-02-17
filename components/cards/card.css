@@ -119,6 +119,11 @@ HORIZONTAL CARD/ WITH BADGE
     text-align: center;
     color: var(--card-text);
 }
+.action-btn{
+    margin-top: -2rem;
+    display: flex;
+    gap: 1rem;
+}
 .btn{
     
     padding: 0.5rem ;
@@ -135,8 +140,9 @@ HORIZONTAL CARD/ WITH BADGE
     background-color: var(--card-btn);
 }
 .horizontal-card{
+    position: relative;
     width: 100%;
-    background-color: var(--card-hr-bg);
+    /* background-color: var(--card-hr-bg); */
     color: var(--card-text);
     padding: 2rem 12rem;
 }
