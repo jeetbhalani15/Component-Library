@@ -18,3 +18,12 @@ toggleBtn.addEventListener('click', ()=>{
 hamburgerMenu.addEventListener('click',()=>{
     bigWrapper.classList.toggle("active");
 })
+
+// slider js
+
+const slider = document.querySelector(".slider-input");
+const value = document.querySelector(".value");
+value.textContent = slider.value
+slider.oninput = function(){
+    value.textContent = this.value;
+}
