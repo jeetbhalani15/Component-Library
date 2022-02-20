@@ -457,3 +457,14 @@ Media Screens
 
 
 }
+@media screen and (max-width: 370px) {
+    .toggle-btn {
+        margin-left: 2.5rem;   
+    }
+    .content{
+        width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
