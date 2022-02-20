@@ -503,6 +503,9 @@ Media Screens
     .alert-with-bckg {
         width: 100%;
     }
+    .alert-box{
+        font-size: 12px;
+    }
     .bg-color {
         color: white;
         font-size: .9rem;
