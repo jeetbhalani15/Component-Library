@@ -247,7 +247,7 @@ span{
 }
 i{
     margin: 5px;
-    color: #626262;
+    color: var(--text-color);
 }
 .drawer__title{
     padding: 20px;
@@ -297,7 +297,7 @@ i:hover{
   
 }
 .drawer__box1{
-    height: 69rem;
+    height: 71rem;
     background-color: var(--backgroungColor);
     border-right: 3px solid #d8d8d8;
 }
@@ -342,6 +342,7 @@ small{
     font-size: 22px;
 }
 .next-pre-btns {
+    width: 130%;
     display: flex;
     font-size: 1.5rem;
     justify-content: space-between;
@@ -355,6 +356,7 @@ small{
     font-size: 1.5rem;
   }
   .footer{
+      width: 130%;
     background-color: #ff9a77;
     display: flex;
     align-items: center;

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>0`Gravity|Badges</title>
-    <link rel="stylesheet" href="/Documentation/docs-comp-css/main-badge.css">
+    <title>0`Gravity|Ratings</title>
+    <link rel="stylesheet" href="/Documentation/docs-comp-css/main-rating.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -158,43 +158,49 @@
                 <div class="content__box">
                     <div class="content">
                       <section>
-                      <h1>Badges</h1> 
-                          <p> Badges are being used to display a notification count or status information</p> 
+                      <h1>Ratings</h1> 
+                          <p> Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too</p> 
                         </section>
-                        <div class="box">
-                            <div class="badges">
-                            <div class="text__badge">
-                                <span class="txt-bg">type text here</span>
-                                <span class="badge">25</span>
-                            </div>
-                            <div class="text__badge">
-                                <span class="txt-bg">type text here</span>
-                                <span class="single__badge">2</span>
-                            </div>
-                            <div class="text__badge">
-                                <button>Button</button>
-                                <span class="badge__btn">2</span>
-                            </div>
-                            <button type="button" class="icon__badge">
-                                <i class="fa fa-bell"></i>
-                                <span class="badge__icon">2</span>
-                              </button>
-                            </div>   
+                        <h1>Example of Ratings with Numbers</h1>
+                        <div class="num-rating">
+                            <div class="num-rate-box">
+                            <span class="num-bg">4.2</span>
+                            <span class="num-bg"><i class="fa fa-star star-bg"></i></span></div>
+                            <span>(8,450) Ratings</span>
                         </div>
         
                            <div class="iframe"> <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=42px&ph=100px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badges%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text__badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Etype%2520text%2520here%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge%2522%253E25%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text__badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253Etype%2520text%2520here%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522single__badge%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text__badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__btn%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522icon__badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Enotifications%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge__icon%2522%253E2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%2520%2520%2520%250A%2520%2520%2520%2520%253C%252Fdiv%253E"
-                            style="width: 750px; height: 558px; border:0; transform: scale(1); overflow:hidden;"
+                            src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=93px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522num-rating%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522num-rate-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522num-bg%2522%253E4.2%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fa%2520fa-star%2520star-bg%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253E%288%252C450%29%2520Ratings%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                            style="width: 913px; height: 286px; border:0; transform: scale(1); overflow:hidden;"
                             sandbox="allow-scripts allow-same-origin">
                           </iframe> </div>
+                          <h1>Example of Ratings Live Demo</h1>
+                          <div class="rate-box">
+                          <div class="ratings">
+                              <h3>Ratings</h3>
+                              <div class="star">
+                                  <input type="radio" name="stars" id="star1"> <label for="star1"></label>
+                                  <input type="radio" name="stars" id="star2"> <label for="star2"></label>
+                                  <input type="radio" name="stars" id="star3"> <label for="star3"></label>
+                                  <input type="radio" name="stars" id="star4"> <label for="star4"></label>
+                                  <input type="radio" name="stars" id="star5"> <label for="star5"></label>
+                                </div>
+                                
+                            </div>
+                        </div>
+                            <div class="iframe"> <iframe
+                                src="https://carbon.now.sh/embed?bg=rgba%28249%2C237%2C212%2C1%29&t=twilight&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=46px&ph=93px&ln=false&fl=1&fm=IBM+Plex+Mono&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522ratings%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ERatings%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522star%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522stars%2522%2520id%253D%2522star1%2522%253E%2520%253Clabel%2520for%253D%2522star1%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522stars%2522%2520id%253D%2522star2%2522%253E%2520%253Clabel%2520for%253D%2522star2%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522stars%2522%2520id%253D%2522star3%2522%253E%2520%253Clabel%2520for%253D%2522star3%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522stars%2522%2520id%253D%2522star4%2522%253E%2520%253Clabel%2520for%253D%2522star4%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522radio%2522%2520name%253D%2522stars%2522%2520id%253D%2522star5%2522%253E%2520%253Clabel%2520for%253D%2522star5%2522%253E%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                                style="width: 1022px; height: 366px; border:0; transform: scale(1); overflow:hidden;"
+                                sandbox="allow-scripts allow-same-origin">
+                              </iframe> </div>
                   
                           <div class="next-pre-btns">
                             <span><i class="fa fa-chevron-left"></i>
-                              <a href="/Documentation/docs-comp-html/main-avatar.html" class="ml-auto">
-                              Avatar
+                              <a href="/Documentation/docs-comp-html/main-modal.html" class="ml-auto">
+                              Modals
                             </a></span>
-                            <span> <a href="/Documentation/docs-comp-html/main-button.html" class="ml-auto">
-                              Buttons
+                            <span> <a href="/Documentation/docs-comp-html/main-navigation.html" class="ml-auto">
+                              Navigation
                              <i class="fa fa-chevron-right"></i>
                             </a></span>
                             
