@@ -396,9 +396,19 @@ Media Screens
 
 }
 @media screen and (max-width: 470px) {
- 
+    
+    .big-wrapper{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+        background-color: var(--backgroungColor);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     section{
-        width: 70%;
+        width: 60%;
     }
     .bg-color {
         color: white;
@@ -417,16 +427,18 @@ Media Screens
         width: 34px;
     }
     .content{
-        padding: 1rem;
+        padding: 0 1rem;
     }
     .h1{
         font-size: 30px;
+    }
+    header{
+        margin-top: -27px;
     }
     p{
         font-size: 14px;
         line-height: 32px;
         color: var(--text-color);
-        width: 124%;
         padding: 1rem;
     }
     .iframe {
@@ -435,6 +447,12 @@ Media Screens
         align-items: center;
         width: 85%;
         padding: 3rem 2rem;
+    }
+    .footer{
+        height: 2rem;
+    }
+    .next-pre-btns i {
+        font-size: 1rem;
     }
 
 
