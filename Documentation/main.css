@@ -341,7 +341,7 @@ small{
 .next-pre-btns {
     display: flex;
     font-size: 1.5rem;
-    justify-content: end;
+    justify-content: space-between;
     margin-top: 3rem;
   }
   .ml-auto{
@@ -424,7 +424,7 @@ Media Screens
     }
     .toggle-btn{
         height: 32px;
-        width: 34px;
+        width: 36px;
     }
     .content{
         padding: 0 1rem;
