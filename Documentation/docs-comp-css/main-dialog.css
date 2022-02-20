@@ -164,6 +164,9 @@ header .container{
      position: relative;
      z-index: 70;
  }
+ .mode{
+     color: var(--darkOne);
+ }
  .toggle-btn{
     display: inline-block;
     border: none;

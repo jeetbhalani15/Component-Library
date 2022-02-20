@@ -163,6 +163,9 @@ header .container{
      position: relative;
      z-index: 70;
  }
+ .mode{
+     color: var(--darkOne);
+ }
  .toggle-btn{
     color: var(--text-color);
     cursor: pointer;

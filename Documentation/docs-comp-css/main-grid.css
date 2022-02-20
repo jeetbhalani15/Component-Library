@@ -177,6 +177,9 @@ header .container{
     font-size: 1.1rem;
     transition: 0.3s;
 }
+.mode{
+    color: var(--darkOne);
+}
 .toggle-btn i{
     line-height: 30px;
 }
@@ -402,4 +405,140 @@ grid CSS
     display: grid;
     grid-template-columns: 70% 30%;
     border: 4px solid #6b6a6a;
+}
+ /* 
+Media Screens
+*/
+@media screen and (max-width: 870px) {
+ 
+    .drawer__box1{
+        display: none;
+    }
+    section{
+        width: 69%;
+    }
+    .alert-with-bckg {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 670px) {
+ 
+    section{
+        width: 52%;
+    }
+    .bg-color {
+        color: white;
+        font-size: 1rem;
+        font-family: monospace;
+        font-weight: 600;
+    }
+    .logo-mg {
+        width: 36%;
+    }
+    .links a {
+        color: var(--text-color);
+        font-weight: 600;
+        margin-left: 1.5rem;
+        display: inline-block;
+        transform: 0.3s;
+    }
+    .alert-with-bckg {
+        width: 100%;
+    }
+    
+
+}
+@media screen and (max-width: 470px) {
+    
+    .big-wrapper{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+        background-color: var(--backgroungColor);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    section{
+        width: 38%;
+    }
+    .alert-with-bckg {
+        width: 100%;
+    }
+    .alert-box{
+        font-size: 12px;
+    }
+    .bg-color {
+        color: white;
+        font-size: .9rem;
+        font-family: monospace;
+        font-weight: 600;
+    }
+    .logo-mg {
+        width: 10%;
+    }
+    .links a {
+        visibility: hidden;   
+    }
+    .toggle-btn{
+        height: 32px;
+        width: 36px;
+    }
+    .content{
+        padding: 0 1rem;
+    }
+    .h1{
+        font-size: 30px;
+    }
+    header{
+        margin-top: -27px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 32px;
+        color: var(--text-color);
+        padding: 1rem;
+    }
+    span {
+        font-size: 16px;
+        padding: 12px;
+        color: var(--text-color);
+    }
+    .badges{
+        width: 100%;
+    }
+    .iframe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        padding: 3rem 2rem;
+    }
+    .footer{
+        height: 2rem;
+    }
+    .next-pre-btns i {
+        font-size: 1rem;
+    }
+
+
+}
+@media screen and (max-width: 370px) {
+    .toggle-btn {
+        margin-left: 2.5rem;   
+    }
+    section{
+        width: 36%;
+    }
+    .alert-box{
+        font-size: 8px;
+    }
+    .content{
+        width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
 }
