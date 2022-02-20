@@ -512,3 +512,173 @@ vertical cards
     font-family: cursive;
     font-weight: 600;
 }
+/* 
+Media Screens
+*/
+@media screen and (max-width: 870px) {
+ 
+    .drawer__box1{
+        display: none;
+    }
+    section{
+        width: 69%;
+    }
+    .alert-with-bckg {
+        width: 100%;
+    }
+    .btn {
+        padding: 0.5rem;
+        margin: 0.25rem 0px;
+       border: 2px solid rgb(236, 235, 235);
+       font-size: 1rem;
+       text-align:center;
+       width: 12rem;
+       cursor: pointer;
+       font-weight: 600;
+         }
+
+}
+@media screen and (max-width: 670px) {
+ 
+    section{
+        width: 50%;
+    }
+    .bg-color {
+        color: white;
+        font-size: 1rem;
+        font-family: monospace;
+        font-weight: 600;
+    }
+    .logo-mg {
+        width: 36%;
+    }
+    .btn {
+        padding: 0.5rem;
+        margin: 0.25rem 0px;
+       border: 2px solid rgb(236, 235, 235);
+       font-size: 1rem;
+       text-align:center;
+       width: 12rem;
+       cursor: pointer;
+       font-weight: 600;
+         }
+    .links a {
+        color: var(--text-color);
+        font-weight: 600;
+        margin-left: 1.5rem;
+        display: inline-block;
+        transform: 0.3s;
+    }
+    .alert-with-bckg {
+        width: 100%;
+    }
+    
+
+}
+@media screen and (max-width: 470px) {
+    
+    .big-wrapper{
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        overflow: hidden;
+        background-color: var(--backgroungColor);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    section{
+        width: 40%;
+    }
+    .alert-with-bckg {
+        width: 100%;
+    }
+    .alert-box{
+        font-size: 12px;
+    }
+    
+    .btn {
+       padding: 0.5rem;
+       margin: 0.25rem 0px;
+      border: 2px solid rgb(236, 235, 235);
+      font-size: 1rem;
+      text-align:center;
+      width: 12rem;
+      cursor: pointer;
+      font-weight: 600;
+        }
+    
+    .card-vertical-box{
+        gap: 2rem;
+    }
+    .bg-color {
+        color: white;
+        font-size: .9rem;
+        font-family: monospace;
+        font-weight: 600;
+    }
+    .logo-mg {
+        width: 10%;
+    }
+    .links a {
+        visibility: hidden;   
+    }
+    .toggle-btn{
+        height: 32px;
+        width: 36px;
+    }
+    .content{
+        padding: 0 1rem;
+    }
+    .h1{
+        font-size: 30px;
+    }
+    header{
+        margin-top: -27px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 32px;
+        color: var(--text-color);
+        padding: 1rem;
+    }
+    span {
+        font-size: 16px;
+        padding: 12px;
+        color: var(--text-color);
+    }
+    .badges{
+        width: 100%;
+    }
+    .iframe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 2rem;
+    }
+    .footer{
+        height: 2rem;
+    }
+    .next-pre-btns i {
+        font-size: 1rem;
+    }
+
+
+}
+@media screen and (max-width: 370px) {
+    .toggle-btn {
+        margin-left: 2.5rem;   
+    }
+    section{
+        width: 36%;
+    }
+    .alert-box{
+        font-size: 8px;
+    }
+    .content{
+        width: 80%;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
