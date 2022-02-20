@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.header{
+    margin-top: 4rem;
+    display: flex;
+    width: 45rem;
+    height: 3rem;
+    background-color: #6200EE;
+    align-items: center;
+   
+}
+button{
+    width: 2rem;
+    height: 2rem;
+    background-color: #6200EE;
+    color: white;
+    font-size: 1.4rem;
+    margin: 0.8rem;
+    border: none;
+
+}
+button:hover{
+    cursor: pointer;
+}
+.actionbtn{
+    margin-left: auto;
+}
+span{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px;
+}
+.headertxt{
+    padding: 1rem;
+}
+
+/* 
+dense CSS
+*/
+.short-header{
+    width: 45rem;
+    height: 2rem;
+}
+.span-short-header{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
