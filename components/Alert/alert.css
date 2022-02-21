@@ -17,19 +17,19 @@
     margin: 1rem 0;
     position: relative;
 }
-.alert-primary{
+.alert-primary-space{
     background-color: var(--alert-primary);
     color: var(--primary-color);
 }
-.alert-success{
+.alert-success-space{
     background-color: var(--success-color);
     color: var(--secondary-color);
 }
-.alert-danger{
+.alert-danger-space{
     color:  var(--secondary-color);
     background-color: var(--danger-color);
 }
-.alert-warning{
+.alert-warning-space{
     color: var(--secondary-color);
     background-color: var(--warning-color);
 }

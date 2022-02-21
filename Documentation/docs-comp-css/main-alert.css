@@ -376,24 +376,24 @@ small{
 .alert-with-bckg{
     width: 70rem;
 }
-.alert-primary{
+.alert-primary-space{
     cursor: pointer;
     background-color: var(--alert-primary);
     color: var(--alert-color);
 }
-.alert-success{
+.alert-success-space{
     cursor: pointer;
 
     background-color: var(--success-color);
     color: var(--success-hover);
 }
-.alert-danger{
+.alert-danger-space{
     cursor: pointer;
 
     color:  var(--danger-hover);
     background-color: var(--danger-color);
 }
-.alert-warning{
+.alert-warning-space{
     cursor: pointer;
 
     color: var(--warning-hover);
