@@ -42,7 +42,7 @@
 
 ## Documentation
 
- Check out [Docs](https://nebulaui.netlify.app/documentation/docs)
+ Check out [Docs](https://zero-gravity-ui.netlify.app/documentation/main)
  
 ## Demo
 ![image](https://github.com/jeetbhalani15/Component-Library/blob/dev/images/0%20gravity%20ui%20landing%20screenshot.png)
@@ -67,7 +67,7 @@
 
 ## Hi, I'm Jeet! 👋
 ### About Me
-* Hey learners, I'm Jay Gadhiya, [Neog Camp](https://neog.camp/) '2022 student.
+* Hey learners, I'm Jeet Bhalani, [Neog Camp](https://neog.camp/) '2022 student.
 ### Social 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jeetbhalani-portfolio.netlify.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeetbhalani/)
