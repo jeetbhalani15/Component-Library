@@ -65,7 +65,7 @@
 * Impact of colors in websites
 * How to structure layout 
 
-## Hi, I'm Jay! 👋
+## Hi, I'm Jeet! 👋
 ### About Me
 * Hey learners, I'm Jay Gadhiya, [Neog Camp](https://neog.camp/) '2022 student.
 ### Social 
