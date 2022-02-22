@@ -67,13 +67,13 @@
 
 ## Hi, I'm Jeet! 👋
 ### About Me
-* Hey learners, I'm Jeet Bhalani, [Neog Camp](https://neog.camp/) '2022 student.
+* Hey learners, I'm Jeet Bhalani, [Neog Camp](https://neog.camp/) '2022 NeoGrammer.
 ### Social 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jeetbhalani-portfolio.netlify.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeetbhalani/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/je_et15)
 
 ## Acknowledgement
-* I want to tell thanks to my mentor [Tanay Pratap](https://twitter.com/tanaypratap), Thank you for inspiring, caring, listening, guiding and shaping our future.
+* I wanna thanks to my mentor [Tanay Pratap](https://twitter.com/tanaypratap), & his team for inspiring, guiding and shaping our future.
 
  
