@@ -388,7 +388,7 @@ small{
 .fw-100{
         font-weight: 100;
     }
-    .text-strike-through{
+    .text-strike{
         text-decoration: line-through;
     }
     .text-underline{
