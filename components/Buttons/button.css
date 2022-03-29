@@ -1,5 +1,4 @@
 .btn{
-    
     padding: 0.5rem 1rem;
     margin: 1.25rem 0;
     background-color: transparent; 
@@ -10,11 +9,10 @@
     cursor: pointer;
 }
 .btn-solid{
-    background-color: var(--btn-color);
+    background-color: var(--primary-hover);
 }
 .btn-outline{
     border: 2px solid #0dafa0;
-    color: var(--btn-color);
 }
 .btn-bottom{
     border: none;
@@ -50,7 +48,9 @@ CSS FOR TOGGLE BTN
     cursor: pointer;
     display: block;
 }
-
+.toggle-pd{
+    padding: 4px;
+}
 .checkbox{
     height: 0;
     width: 0;
@@ -61,9 +61,9 @@ CSS FOR TOGGLE BTN
     position: absolute;
     top:0;
     left:9px;
-    height: 26px;
-    width: 26px;
-    background-color: var(--btn-color);
+    height: 27px;
+    width: 27px;
+    background-color: var(--primary-hover);
     border-radius: 50%;
     transition: 0.4s;
 }
@@ -71,7 +71,7 @@ CSS FOR TOGGLE BTN
     position: absolute;
     content: "";
     top:0;
-    left: 9px;
+    left: 8px;
     width: 26px;
     height: 26px;
     border-radius: 50%;
@@ -88,19 +88,14 @@ CSS FOR TOGGLE BTN
 CSS FOR FLOATING BTN
 */
 .btn-float{
-    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     width: 3.5rem;
     height: 2.9rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 50%;
     color:#159673;
-    background-color:var(--btn-color);
-    z-index: 1;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
+    background-color:var(--primary-hover);
 }
