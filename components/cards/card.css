@@ -146,7 +146,9 @@ HORIZONTAL CARD/ WITH BADGE
     color: var(--card-text);
     padding: 2rem 12rem;
 }
-
+.txt-color{
+  color: black;
+}
 .card-text{
     padding: 3rem;
     width: 33%;
@@ -212,9 +214,8 @@ vertical card
 .my{
     margin-top: 8px;
 }
-.overlay{
-    opacity: 50%
-
+.card-overlay {
+  opacity: 66%;
 }
 .text-overlay{
     position: absolute;
@@ -224,4 +225,10 @@ vertical card
     right: 29%;
     font-family: cursive;
     font-weight: 600;
+}
+/* card with shadow */
+.shadow{
+  padding: 2rem;
+  border: 1px solid rgb(158, 158, 158);
+  box-shadow: 0px 0px 18px rgb(231, 216, 164);
 }
