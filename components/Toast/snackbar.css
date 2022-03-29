@@ -8,13 +8,22 @@
     gap: 180px;
 }
 
+.toast-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    background-color: #f1f1f1;
+    height: 12rem;
+}
+
 .snackbar1{
     display: flex;
     padding: 5px 10px;
     color: rgb(245, 245, 245);
     font-size: 18px;
     font-weight: 600;
-    width: 500px;
     align-items: center;
     justify-content: center;
     height: 48px;
@@ -35,10 +44,13 @@
 }
 .retry{
     margin: 15px;
-    color: #B47EFB;
+    color: var(--primary-color);
 }
 .action1{
     margin-left: auto;
+}
+.txt-color{
+    color: #d8d8d8;
 }
 /* 
 CSS FOR TOGGLE SNCAKBARS
@@ -117,4 +129,50 @@ CSS FOR TOGGLE SNCAKBARS
     padding: 16px 62px;
     margin: 34px;
     font-size: 20px;
+}
+
+
+.toast-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    background-color: #f1f1f1;
+    height: 12rem;
+}
+
+.snackbar1{
+    display: flex;
+    padding: 5px 10px;
+    color: rgb(245, 245, 245);
+    font-size: 18px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: #333333
+}
+.btn{
+    background-color: #333333;
+    color: wheat;
+    border: none;
+    font-weight: 500;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+
+}
+.btn:hover{
+    background-color: #414141
+}
+.retry{
+    margin: 15px;
+    color: var(--primary-color);
+}
+.action1{
+    margin-left: auto;
+}
+.txt-color{
+    color: #d8d8d8;
 }
