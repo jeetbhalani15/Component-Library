@@ -194,11 +194,14 @@ vertical card
     gap: 8rem;
 }
 .vertical-card{
-    position: relative;
-    flex-direction: column;
-    gap: 1rem;
-    /* background-color: var(--card-hr-bg); */
-    color: var(--card-text);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f1f1f1;
+  justify-content: center;
+  align-items: center;
+  color: var(--card-text);
 }
 .floating-icon{
     position: absolute;
