@@ -85,7 +85,7 @@
     background-color: #e8dff5;
   }
   
-  i {
+  .dialog-icon {
     list-style: none;
     display: flex;
     align-items: center;
