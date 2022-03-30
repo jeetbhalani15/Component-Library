@@ -246,7 +246,7 @@ span{
     padding: 18px;
     color: var(--text-color);
 }
-i{
+.header-icon{
     margin: 5px;
     color: var(--text-color);
 }
@@ -283,7 +283,7 @@ i{
   #header a:hover {
     color: #000; 
   }
-i:hover{
+.header-icon:hover{
     color: var(--primary-hover);
 }
 .active{

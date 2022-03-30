@@ -111,12 +111,11 @@
     background-color: #e8dff5;
   }
   
-  i {
+  .modal-icon {
     list-style: none;
     display: flex;
     align-items: center;
     padding: 10px;
-    /* font-size: px; */
     margin-right: 8px;
   }
   .fa-user-circle-o {
