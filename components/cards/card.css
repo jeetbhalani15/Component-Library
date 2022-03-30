@@ -105,6 +105,7 @@ text on img
 HORIZONTAL CARD/ WITH BADGE
 */
 .card-img{
+    margin-top: 5rem;
     position: relative;
     width: 14rem;
     height: 17.5rem;
@@ -140,10 +141,9 @@ HORIZONTAL CARD/ WITH BADGE
     background-color: var(--card-btn);
 }
 .horizontal-card{
+    display: flex;
     position: relative;
     width: 100%;
-    /* background-color: var(--card-hr-bg); */
-    color: var(--card-text);
     padding: 2rem 12rem;
 }
 .txt-color{
@@ -178,6 +178,9 @@ HORIZONTAL CARD/ WITH BADGE
 i{
     margin: 8px;
 }
+.span-xl{
+    font-size: 15px;
+}
 
 /* 
 vertical card
@@ -190,7 +193,6 @@ vertical card
 
 .card-vertical-box{
     position: relative;
-    /* background-color: var(--card-hr-bg); */
     gap: 8rem;
 }
 .vertical-card{
