@@ -33,16 +33,17 @@ CSS FOR BUTTON WITH BADGE
 .badge__btn{
     position: absolute;
     color: var(--badge-text-color);
-    top: -10px;
-    left: 34px;
+    top: -25px;
+    left: 64px;
     background-color: var(--badge-bg-color);
     padding: 6px;
     border-radius: 50%;
     border: 3px solid white;
 }
 .badge-btn{
-    padding: 12px 22px;
+    position: relative;
     border-radius: inherit;
+    border: 2px solid black;
 }
 
 
@@ -68,8 +69,8 @@ CSS ICONS WITH BAGDES
 .badge__icon{
     position: absolute;
     color: var(--badge-text-color);
-    top: -21px;
-    left: 28px;
+    top: -18px;
+    left: 17px;
     background-color: var(--badge-bg-color);
     padding: 3px;
     border-radius: 50%;
