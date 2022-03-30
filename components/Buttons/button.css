@@ -1,5 +1,5 @@
 .btns{
-    padding: 0.5rem 1rem;
+    padding: 1.5rem 1rem;
     margin: 1.25rem 0;
     background-color: transparent; 
     border: 2px solid grey;
@@ -7,6 +7,7 @@
     text-align: center;
     width: 12rem;
     cursor: pointer;
+    color: black;
 }
 .btn-solid{
     background-color: var(--primary-hover);
