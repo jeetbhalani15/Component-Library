@@ -381,7 +381,7 @@ Navigation CSS
     align-items: center;
     margin-bottom: 4rem;
 }
-button{
+.nav-btn{
     width: 2rem;
     height: 2rem;
     background-color: #6200EE;
@@ -394,7 +394,7 @@ button{
 i{
     color: azure;
 }
-button:hover{
+.nav-btn:hover{
     cursor: pointer;
 }
 .actionbtn{

@@ -19,7 +19,7 @@
     align-items: center;
    
 }
-button{
+.nav-btn{
     width: 2rem;
     height: 2rem;
     background-color: #6200EE;
@@ -29,7 +29,7 @@ button{
     border: none;
 
 }
-button:hover{
+.nav-btn:hover{
     cursor: pointer;
 }
 .actionbtn{
