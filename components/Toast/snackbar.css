@@ -29,7 +29,7 @@
     height: 48px;
     background-color: #333333
 }
-.btn{
+.close-btn{
     background-color: #333333;
     color: wheat;
     border: none;
@@ -153,7 +153,7 @@ CSS FOR TOGGLE SNCAKBARS
     height: 48px;
     background-color: #333333
 }
-.btn{
+.close-btn{
     background-color: #333333;
     color: wheat;
     border: none;
