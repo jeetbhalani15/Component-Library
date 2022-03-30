@@ -486,7 +486,6 @@ vertical cards
     position: relative;
     flex-direction: column;
     gap: 1rem;
-    /* background-color: #f1f1f1; */
     justify-content: center;
     align-items: center;
     color: var(--card-text);
