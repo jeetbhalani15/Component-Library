@@ -1,4 +1,3 @@
-
 @import "/reset.css";
 .alert-container{
     display: flex;
@@ -19,18 +18,14 @@
 }
 .alert-primary-space{
     background-color: var(--alert-primary);
-    color: var(--primary-color);
 }
 .alert-success-space{
     background-color: var(--success-color);
-    color: var(--secondary-color);
 }
 .alert-danger-space{
-    color:  var(--secondary-color);
     background-color: var(--danger-color);
 }
 .alert-warning-space{
-    color: var(--secondary-color);
     background-color: var(--warning-color);
 }
 /* 
@@ -38,22 +33,18 @@ CSS FOR OULINE ALERT
 */  
 .alert-primary-outline{
     background-color: var(--outline-bg);
-    color: var(--primary-color);
     border: 2px solid blue;
 }
 .alert-danger-outline{
-    color: var(--danger-color);
     background-color: var(--outline-bg);
     border: 2px solid red;
 }
 .alert-success-outline{
     background-color: var(--outline-bg);
-    color: var(--success-color);
     border: 2px solid green;
 }
 .alert-warning-outline{
     background-color: var(--outline-bg);
-    color: var(--warning-color);
     border: 2px solid orange;
 }
 .alert-btn{
@@ -61,7 +52,7 @@ CSS FOR OULINE ALERT
     position: relative;
     align-items: center;
 }
-.close-btn{
+.alert-close-btn{
     font-weight: 600;
     background: none;
     border: none;

@@ -400,7 +400,7 @@ small{
     font-weight: 800;
     border-radius: 5px;
 }
-.badge{
+.baadge{
     position: absolute;
     color: var(--badge-text-color);
     top: -30px;
@@ -423,7 +423,7 @@ CSS FOR BUTTON WITH BADGE
     border-radius: 50%;
     border: 3px solid white;
 }
-button{
+.badge-btn{
     padding: 12px 22px;
     border-radius: inherit;
 }

@@ -427,13 +427,13 @@ CSS FOR OULINE ALERT
     position: relative;
     align-items: center;
 }
-.close-btn{
+.alert-close-btn{
     font-weight: 600;
     background: none;
     border: none;
     position: absolute;
-    right: 1%;
-    bottom: 36%;
+    right: 3%;
+    bottom: 26%;
 }
 .footer{
     background-color: var(--primary-color);

@@ -237,10 +237,9 @@ a{
 }
 span{
     font-size: 22px;
-    padding: 18px;
     color: var(--text-color);
 }
-i{
+.rate-icon{
     margin: 5px;
     color: #626262;
 }
@@ -279,7 +278,7 @@ i{
   #header a:hover {
     color: #000; 
   }
-i:hover{
+.rate-icon:hover{
     color: #6200EE;
 }
 .active{

@@ -15,7 +15,6 @@
     display: inline-block;
     padding-bottom: 0.625rem;
     box-sizing: border-box;
-    color: blanchedalmond;
 }
 .input-label-required:after{
     content: "*";
@@ -35,6 +34,14 @@
 .input-read-only:read-only{
     border: none;
     background-color: transparent;
+}
+.error-msg{
+    margin-left: 2rem;
+    color: red;
+}
+.success-msg{
+    margin-left: 2rem;
+    color: green;
 }
 /* 
 RADIO INPUT ELEMENT

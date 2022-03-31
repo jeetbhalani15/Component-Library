@@ -14,8 +14,8 @@
     gap: 50px;
   }
   .dialog__box {
-    width: 16rem;
-    height: 9rem;
+    width: fit-content;
+    height: fit-content;
   }
   .dialog__header {
     margin-right: 6rem;
@@ -85,7 +85,7 @@
     background-color: #e8dff5;
   }
   
-  i {
+  .dialog-icon {
     list-style: none;
     display: flex;
     align-items: center;
