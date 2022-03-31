@@ -370,6 +370,11 @@ small{
   /* 
   cards css
   */
+  .shadow{
+      padding: 2rem;
+      border: 1px solid rgb(158, 158, 158);
+      box-shadow: 0px 0px 18px rgb(231, 216, 164);
+  }
   .horizontal-card{
     display: flex;
     width: 100%;
@@ -481,7 +486,6 @@ vertical cards
     position: relative;
     flex-direction: column;
     gap: 1rem;
-    background-color: #f1f1f1;
     justify-content: center;
     align-items: center;
     color: var(--card-text);
@@ -499,7 +503,7 @@ vertical cards
 .my{
     margin-top: 2px;
 }
-.overlay{
+.card-overlay{
     opacity: 66%
 
 }
