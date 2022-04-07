@@ -1,0 +1,1 @@
+I have submitted all p1 components of component libary in my week two assingment submissions.
